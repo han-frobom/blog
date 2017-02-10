@@ -72,12 +72,13 @@ class PostsController extends AppController
                 }
                 if ($this->request->is(array('post', 'put'))) {
                 $this->Post->id = $id;
-                /*$filePath="./img/posts/".$this->request->data['Post']['image']['name'];
-           $filename=$this->request->data['Post']['image']['tmp_name'];
-           if(move_uploaded_file($filename, $filePath)){
-               echo "File Uploaded Successfully";
-               $this->request->data['Post']['imagePath']=$this->request->data['Post']['image']['name'];*/
-               $this->request->data['Post']['user_id'] = $this->Auth->user('id');
+                $filePath="./img/posts/".$this->request->data['Post']['image']['name'];
+                $filename=$this->request->data['Post']['image']['tmp_name'];
+                if(move_uploaded_file($filename, $filePath)){
+                  $this->request->data['Post']['imagePath']=$this->request->data['Post']['image']['name'];
+                }
+                
+               /* $this->request->data['Post']['user_id'] = $this->Auth->user('id');*/
                 $result=$this->Post->save($this->request->data);
                 if ($result) 
                 {
@@ -92,6 +93,7 @@ class PostsController extends AppController
                 }
                 
               }
+            
 function uploadimg($id = null) {
     header('Content-type: image/jpeg');
     $posts = $this->Post->findById($id);

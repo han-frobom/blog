@@ -2645,3 +2645,55 @@ Stack Trace:
 #3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-02-10 15:47:31 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users/index
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-10 15:48:10 Error: Fatal Error (4): syntax error, unexpected 'ယarray' (T_STRING) in [/vagrant/app/View/Posts/edit.ctp, line 6]
+2017-02-10 15:48:10 Error: [FatalErrorException] syntax error, unexpected 'ယarray' (T_STRING)
+Request URL: /posts/edit/74
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 6, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 6, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 15:48:31 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/vagrant/app/View/Posts/edit.ctp, line 6]
+2017-02-10 15:48:31 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /posts/edit/74
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 6, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 6, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 15:55:40 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 100]
+2017-02-10 15:55:40 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 100)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 100, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 100, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 15:57:52 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 102]
+2017-02-10 15:57:52 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 102)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 102, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 102, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
