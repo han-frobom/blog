@@ -2,14 +2,14 @@
    <head><title>View</title></head>
    <body>
         <b><?php echo ($post['Post']['title']); ?></b>                  
-         <p><?php echo h($post['Post']['article']); ?></p>
+         <p><?php echo ($post['Post']['article']); ?></p>
           <p><small> <?php echo $post['Post']['created']; ?></small></p>
            <p><?php echo $this->Html->image('./posts/'. $post['Post']['imagePath']);//echo </td>h($post['Post']['imagePath']); ?></p>
 
             <?php foreach ($post['Comment'] as $comment): ?>
       <div class="comment" style="margin-left:50px;">
-      <b><?php echo h($comment['name'])?> :
-          <?php echo h($comment['body'])?></b> 
+      <b><?php echo ($comment['name'])?> :
+          <?php echo ($comment['body'])?></b> 
    <?php
     
 echo $this->Form->postLink(

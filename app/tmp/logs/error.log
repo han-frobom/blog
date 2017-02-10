@@ -1955,3 +1955,693 @@ Stack Trace:
 #3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-02-06 16:46:28 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/vagrant/app/Controller/PostsController.php, line 119]
+2017-02-06 16:46:28 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 119)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 119, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 119, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 16:46:37 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/vagrant/app/Controller/PostsController.php, line 119]
+2017-02-06 16:46:37 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 119)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 119, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 119, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 16:53:22 Error: Fatal Error (4): syntax error, unexpected '<' in [/vagrant/app/View/Posts/index.ctp, line 27]
+2017-02-06 16:53:22 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 27, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 27, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 16:53:40 Error: Fatal Error (4): syntax error, unexpected '<' in [/vagrant/app/View/Posts/index.ctp, line 27]
+2017-02-06 16:53:40 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 27, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 27, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:14:45 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 95]
+2017-02-06 17:14:45 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 95, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 95, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:18:16 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/vagrant/app/Controller/PostsController.php, line 86]
+2017-02-06 17:18:16 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 86, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 86, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:28:15 Error: Fatal Error (1): Call to a member function save() on null in [/vagrant/app/Controller/PostsController.php, line 87]
+2017-02-06 17:28:16 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/app/Co...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/app/Co...', 87, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/app/Co...', 87, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:30:49 Error: Fatal Error (4): syntax error, unexpected '{' in [/vagrant/app/Controller/PostsController.php, line 87]
+2017-02-06 17:30:49 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 87, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 87, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:30:54 Error: Fatal Error (4): syntax error, unexpected '{' in [/vagrant/app/Controller/PostsController.php, line 87]
+2017-02-06 17:30:54 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 87, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 87, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:52:28 Error: Fatal Error (1): Call to a member function save() on null in [/vagrant/app/Controller/PostsController.php, line 89]
+2017-02-06 17:52:28 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/app/Co...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/app/Co...', 89, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/app/Co...', 89, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:53:01 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 96]
+2017-02-06 17:53:01 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 96, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 96, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:53:25 Error: Fatal Error (1): Call to a member function save() on null in [/vagrant/app/Controller/PostsController.php, line 89]
+2017-02-06 17:53:25 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/app/Co...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/app/Co...', 89, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/app/Co...', 89, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 17:56:46 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 128]
+2017-02-06 17:56:46 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 128)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 128, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 128, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 19:18:22 Error: [MissingLayoutException] Layout file "Layouts/defualt.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/defualt.ctp',
+)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(514): View->_getLayoutFileName('defualt')
+#1 /vagrant/lib/Cake/View/View.php(481): View->renderLayout('', 'defualt')
+#2 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-02-09 17:56:23 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/users/add
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 17:56:35 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/user/add
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 17:56:47 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/posts/add
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 17:57:30 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/users/add
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 17:57:39 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/users/add
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 17:58:08 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/users/login
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 17:58:25 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/users/login
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 18:09:19 Error: [MissingControllerException] Controller class Cakephp-2.7.6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.7.6Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.6/users/add.ctp
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-09 18:09:33 Error: [MissingActionException] Action UsersController::add.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add.ctp',
+)
+Request URL: /users/add.ctp
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-09 18:09:45 Error: [MissingActionException] Action UsersController::lp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'lp',
+)
+Request URL: /users/lp
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-09 18:09:53 Error: [MissingActionException] Action UsersController::ogin() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'ogin',
+)
+Request URL: /users/ogin
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-09 18:18:30 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users/
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-09 18:18:40 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /users/posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-10 11:37:06 Error: [NotFoundException] Invalid post
+Request URL: /Posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-10 11:41:22 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/vagrant/app/Controller/PostsController.php, line 9]
+2017-02-10 11:41:22 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /posts/index
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 9, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 9, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 12:17:09 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /Posts/view/118
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-10 12:17:13 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /Posts/view/115
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-10 12:17:41 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /Posts/view/72
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-10 12:18:17 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users/
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-10 12:18:22 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users/index
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-10 12:18:36 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/118
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-10 12:37:32 Error: Fatal Error (1): Call to a member function exists() on null in [/vagrant/app/Controller/PostsController.php, line 7]
+2017-02-10 12:37:32 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /posts/view/118
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/app/Co...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/app/Co...', 7, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/app/Co...', 7, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 12:47:15 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 13]
+2017-02-10 12:47:15 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /posts/index
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 13, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 13, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 12:58:13 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/vagrant/app/View/Posts/edit.ctp, line 11]
+2017-02-10 12:58:13 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Posts/edit/124
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 11, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 11, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 12:58:31 Error: Fatal Error (4): syntax error, unexpected ';' in [/vagrant/app/View/Posts/edit.ctp, line 10]
+2017-02-10 12:58:31 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Posts/edit/124
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 10, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 10, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 12:58:38 Error: Fatal Error (4): syntax error, unexpected ';' in [/vagrant/app/View/Posts/edit.ctp, line 10]
+2017-02-10 12:58:38 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Posts/edit/124
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 10, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 10, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:04:05 Error: Fatal Error (4): syntax error, unexpected '$result' (T_VARIABLE) in [/vagrant/app/Controller/PostsController.php, line 76]
+2017-02-10 13:04:05 Error: [FatalErrorException] syntax error, unexpected '$result' (T_VARIABLE)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 76, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 76, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:04:50 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 94]
+2017-02-10 13:04:50 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 94)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 94, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 94, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:05:47 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 94]
+2017-02-10 13:05:47 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 94)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 94, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 94, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:08:22 Error: [MissingActionException] Action PostsController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'delete',
+)
+Request URL: /Posts/delete/119
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-10 13:10:25 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Posts/delete/119
+Stack Trace:
+#0 [internal function]: PostsController->delete('119')
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-10 13:35:41 Error: Fatal Error (4): syntax error, unexpected '']['' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [/vagrant/app/Controller/PostsController.php, line 77]
+2017-02-10 13:35:41 Error: [FatalErrorException] syntax error, unexpected '']['' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /Posts/edit/123
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 77, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 77, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:39:01 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/vagrant/app/Controller/PostsController.php, line 95]
+2017-02-10 13:39:01 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Posts/edit/123
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 95, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 95, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:48:51 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/vagrant/app/Controller/PostsController.php, line 41]
+2017-02-10 13:48:51 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 41, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 41, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:49:09 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/vagrant/app/Controller/PostsController.php, line 42]
+2017-02-10 13:49:09 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 42, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 42, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:49:31 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/vagrant/app/Controller/PostsController.php, line 42]
+2017-02-10 13:49:31 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 42, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 42, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:50:08 Error: Fatal Error (4): syntax error, unexpected ';' in [/vagrant/app/Controller/PostsController.php, line 43]
+2017-02-10 13:50:08 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 43, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 43, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:58:27 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/vagrant/app/Controller/PostsController.php, line 46]
+2017-02-10 13:58:27 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:58:43 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/vagrant/app/Controller/PostsController.php, line 46]
+2017-02-10 13:58:43 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 13:58:52 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/vagrant/app/Controller/PostsController.php, line 46]
+2017-02-10 13:58:52 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 14:00:58 Error: Fatal Error (4): syntax error, unexpected '' => 25' (T_CONSTANT_ENCAPSED_STRING) in [/vagrant/app/Controller/PostsController.php, line 48]
+2017-02-10 14:00:58 Error: [FatalErrorException] syntax error, unexpected '' => 25' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 48, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 48, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 14:01:18 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/vagrant/app/Controller/PostsController.php, line 46]
+2017-02-10 14:01:18 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Posts
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 46, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 14:06:45 Error: Fatal Error (4): syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/vagrant/app/Controller/PostsController.php, line 47]
+2017-02-10 14:06:45 Error: [FatalErrorException] syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 47, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 47, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 14:06:59 Error: Fatal Error (4): syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/vagrant/app/Controller/PostsController.php, line 47]
+2017-02-10 14:06:59 Error: [FatalErrorException] syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 47, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 47, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 14:08:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des  LIMIT 3' at line 1
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /vagrant/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /vagrant/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /vagrant/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Post), Array)
+#5 /vagrant/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /vagrant/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /vagrant/app/Controller/PostsController.php(50): Controller->paginate()
+#9 [internal function]: PostsController->index()
+#10 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-10 14:08:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des  LIMIT 3' at line 1
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /vagrant/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /vagrant/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /vagrant/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Post), Array)
+#5 /vagrant/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /vagrant/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /vagrant/app/Controller/PostsController.php(50): Controller->paginate()
+#9 [internal function]: PostsController->index()
+#10 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-10 14:08:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des  LIMIT 3' at line 1
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /vagrant/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /vagrant/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /vagrant/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Post), Array)
+#5 /vagrant/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /vagrant/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /vagrant/app/Controller/PostsController.php(50): Controller->paginate()
+#9 [internal function]: PostsController->index()
+#10 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-10 14:09:15 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des  LIMIT 3' at line 1
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /vagrant/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /vagrant/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /vagrant/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Post), Array)
+#5 /vagrant/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /vagrant/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /vagrant/app/Controller/PostsController.php(50): Controller->paginate()
+#9 [internal function]: PostsController->index()
+#10 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-10 14:09:39 Error: Fatal Error (4): syntax error, unexpected ')' in [/vagrant/app/Controller/PostsController.php, line 48]
+2017-02-10 14:09:39 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Co...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Co...', 48, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Co...', 48, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 14:15:34 Error: Fatal Error (4): syntax error, unexpected ';' in [/vagrant/app/View/Posts/index.ctp, line 70]
+2017-02-10 14:15:34 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 70, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 70, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-10 14:16:38 Error: Fatal Error (4): syntax error, unexpected ';' in [/vagrant/app/View/Posts/index.ctp, line 70]
+2017-02-10 14:16:38 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Posts/
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 70, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 70, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

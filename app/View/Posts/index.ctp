@@ -8,7 +8,6 @@
 <tr>
 <th>Id</th>
 <th>Title</th>
-
 <th>Article</th>
 <th>Modified_Date</th>
 <th>Created_Date</th>
@@ -19,7 +18,8 @@
 <!-- Here's where we loop through our $posts array, printing out post info -->
 <?php foreach ($posts as $post): ?>
 <tr>
-<td><?php echo $post['Post']['id']; ?></td>
+
+<td><?php echo $post['Post']['id']; ?></td> 
 
 <td>
 <?php
@@ -30,13 +30,15 @@ array('action' => 'view', $post['Post']['id'])
 ?>
 </td>
 
-
-<td><?php
+<td>
+<?php
 echo $this->Html->link(
 $post['Post']['article'],
 array('action' => 'view', $post['Post']['id'])
 );
-?></td>
+?>
+</td>
+
 <td>
 <?php echo $post['Post']['modified']; ?>
 </td>
@@ -65,10 +67,15 @@ echo $this->Html->link(
 </tr>
 <?php endforeach; ?>
 </table>
-<p><?php echo $this->Html->link('Add Post', array('action' => 'add')); ?></p>
+<?php echo $this->Paginator->prev('<< ' . __('previous', true), array(), null, array('class'=>'disabled'));?>
+<?php echo $this->Paginator->numbers();?>
+<?php echo $this->Paginator->next(__('next', true) . ' >>', array(), null, array('class' => 'disabled'));?>
+<div>
+<tr>
+<td><?php echo $this->Html->link('Add Post', array('action' => 'add')); ?></td>
 
-<?php echo $this->Html->link('View',array('controller'=>'posts','action'=>'manage'));?>
+<td><?php echo $this->Html->link('View',array('controller'=>'posts','action'=>'manage'));?></td>
 
- <p><?php echo $this->Html->link('logout',array('controller'=>'users','action'=>'logout'));?></p>
+ <td><?php echo $this->Html->link('logout',array('controller'=>'users','action'=>'logout'));?></td></tr></div>
     </body>
 </html>

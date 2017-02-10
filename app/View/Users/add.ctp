@@ -1,7 +1,7 @@
 <div class="users form">
 <?php echo $this->Form->create('User'); ?>
-    <fieldset>
-        <legend><?php echo __('Add User'); ?></legend>
+   
+       <h1><?php echo('You are new member,please register here'); ?></h1>
         <?php 
         echo $this->Form->input('username');
         echo $this->Form->input('email');
@@ -10,6 +10,6 @@
             'options' => array('admin' => 'Admin', 'author' => 'Author')
         ));
     ?>
-    </fieldset>
+   
 <?php echo $this->Form->end(__('Submit')); ?>
 </div>
