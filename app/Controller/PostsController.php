@@ -44,6 +44,7 @@ class PostsController extends AppController
   $this->Post->recursive=0;
   $this->paginate=array(
     'limit' => 3,
+    'order' => array('created' => 'desc')
     
     );
   $this->set('posts',$this->paginate());
