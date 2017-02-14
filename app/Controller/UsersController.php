@@ -62,7 +62,32 @@ public function logout() {
    }
 
    public function add() {
-       if ($this->request->is('post')) {
+    
+    if (!empty($this->data)){
+      if ($this->User->validates($this->data)){
+       if ($this->User->findByUsername($this->data['User']['username']))
+       {
+        $this->User->invalidate('username');
+        //$this->set('username_error', 'User already exists.');
+         $this->Flash->error(('User already exists,Please use different username'));
+         return $this->redirect(array('action' => 'add'));
+      } 
+        else {
+          $this->User->save($this->data);
+          $this->Flash->success(('Your registration information was accepted.'));
+        return $this->redirect(array('action' => 'login'));
+      }
+    } 
+          else {$this->validateErrors($this->User);
+       }
+     }
+  
+ 
+
+
+
+
+       /*if ($this->request->is('post')) {
            $this->User->create();
            if ($this->User->save($this->request->data)) {
                $this->Flash->success(('The user has been saved'));
@@ -71,8 +96,9 @@ public function logout() {
            $this->Flash->error(
                ('The user could not be saved. Please, try again.')
            );
-       }
-   }
+       }*/
+   
+ }
 
    /*public function edit($id = null) {
        $this->User->id = $id;

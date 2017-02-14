@@ -28,7 +28,7 @@ class PostsController extends AppController
             $this->Flash->error(__('The Comment could not be saved. Please, try again.', true),'warning');
         }
         $post = $this->Post->read(null, $id); // contains $post['Comments']
-        $this->set(compact('post'));
+       $this->set(compact('post'));
         $post = $this->Post->findById($id);
         if (!$post) {
         throw new NotFoundException(__('Invalid post'));

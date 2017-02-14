@@ -22,7 +22,7 @@
 
 /** General Style Info **/
 body {
-	background: #003d4c;
+	background:#3D3D3D;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
@@ -82,7 +82,7 @@ p {
 #header h1 {
 	line-height:20px;
 	background: #003d4c url('../img/cake.icon.png') no-repeat left;
-	color: #845422;/**#fff;**/
+	color: #fff;
 	padding: 0 30px;
 }
 #header h1 a {
@@ -92,7 +92,7 @@ p {
 	text-decoration: none;
 }
 #header h1 a:hover {
-	color: #845422/*#fff;*/
+	color: #fff;
 	background: #003d4c;
 	text-decoration: underline;
 }
@@ -108,7 +108,7 @@ p {
 	padding: 6px 10px;
 }
 #header a, #footer a {
-	color: #845422;/*#fff;*/
+	color: #fff;
 }
 #cake-powered {
 	float: right;
@@ -138,7 +138,7 @@ div.actions h3 {
 table {
 	border-right:0;
 	clear: both;
-	color: ##FF77AA;/**333**/
+	color: #333;
 	margin-bottom: 10px;
 	width: 100%;
 }
@@ -293,7 +293,7 @@ form div {
 	vertical-align: text-top;
 }
 form .input {
-	color: #845422;/**#444;**/
+	color: #444;
 }
 form .required {
 	font-weight: bold;

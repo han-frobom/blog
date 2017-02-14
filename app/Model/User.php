@@ -3,12 +3,14 @@ class User extends AppModel {
     
     public $validate = array(
         'username' => array(
+            'username' => '/^.{6,10}$/',
             'required' => array(
                 'rule' => 'notBlank',
                 'message' => 'A username is required'
             )
         ),
         'password' => array(
+            'password' => '/^.{6,8}$/',
             'required' => array(
                 'rule' => 'notBlank',
                 'message' => 'A password is required'
