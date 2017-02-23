@@ -1,10 +1,10 @@
 <html><head>
 <title>Blog</title>
 <body><bold>
-<h1>Welcome to my Blog</h1></bold>
+<h1 style="font-family: cursive;font-size:25px;color:#309292;"><em>Here is all the posts......</em></h1></bold>
 
 
-<table>
+<table style="background-color:#CAC640">
 <tr>
 <th>Id</th>
 <th>Title</th>
@@ -18,7 +18,7 @@
 <!-- Here's where we loop through our $posts array, printing out post info -->
 <?php foreach ($posts as $post): ?>
 <tr>
-
+<?php if(AuthComponent::user('role')=='admin'):?>
 <td><?php echo $post['Post']['id']; ?></td> 
 
 <td>
@@ -65,6 +65,41 @@ echo $this->Html->link(
 </td>
 
 </tr>
+<?php endif; ?>
+
+
+<?php if(AuthComponent::user('role')=='author'):?>
+
+<td><?php echo $post['Post']['id']; ?></td> 
+
+<td>
+<?php
+echo $this->Html->link(
+$post['Post']['title'],
+array('action' => 'view', $post['Post']['id'])
+);
+?>
+</td>
+
+<td>
+<?php
+echo $this->Html->link(
+$post['Post']['article'],
+array('action' => 'view', $post['Post']['id'])
+);
+?>
+</td>
+
+<td>
+<?php echo $post['Post']['modified']; ?>
+</td>
+<td>
+<?php echo $post['Post']['created']; ?>
+</td>
+
+
+</tr>
+	<?php endif; ?>
 <?php endforeach; ?>
 </table>
 <?php echo $this->Paginator->prev('<< ' . __('previous', true), array(), null, array('class'=>'disabled'));?>

@@ -4,7 +4,7 @@ class UsersController extends AppController
   public function beforeFilter() {
     parent::beforeFilter();
     // Allow users to register and logout.
-    $this->Auth->allow('add', 'logout','login');
+    $this->Auth->allow('add', 'logout');
 }
 
 public function login()
@@ -27,26 +27,7 @@ public function login()
 public function logout() {
     return $this->redirect($this->Auth->logout());
 }
-    /*public function beforeFilter(Event $event)
-   {
-       parent::beforeFilter($event);
-       $this->Auth->allow('add');
-   }*/
-  /*public function upload() {
-    return $this->redirect(array
-(
-  [Media] => Array
-  (
-    [file] => Array
-    (
-      [name] => cake.jpg
-      [type] => image/jpeg
-      [tmp_name] => /tmp/hp1083.tmp
-      [error] => 0
-      [size] => 24530
-    )
-  )
-))}*/
+    
 
     public function index() {
        $this->User->recursive = 0;
@@ -63,79 +44,19 @@ public function logout() {
 
    public function add() {
     
-    if (!empty($this->data)){
-      if ($this->User->validates($this->data)){
-       if ($this->User->findByUsername($this->data['User']['username']))
-       {
-        $this->User->invalidate('username');
-        //$this->set('username_error', 'User already exists.');
-         $this->Flash->error(('User already exists,Please use different username'));
-         return $this->redirect(array('action' => 'add'));
-      } 
-        else {
-          $this->User->save($this->data);
-          $this->Flash->success(('Your registration information was accepted.'));
-        return $this->redirect(array('action' => 'login'));
-      }
-    } 
-          else {$this->validateErrors($this->User);
-       }
+    if ($this->request->is('post')) {
+         $this->User->create();
+         if ($this->User->save($this->request->data)) {
+             $this->Flash->success(__('The user has been saved'));
+             return $this->redirect(array('action' => 'login'));
+         }
+         $this->Flash->error(
+             __('The user could not be saved. Please, try again.')
+         );
      }
-  
- 
-
-
-
-
-       /*if ($this->request->is('post')) {
-           $this->User->create();
-           if ($this->User->save($this->request->data)) {
-               $this->Flash->success(('The user has been saved'));
-               return $this->redirect(array('action' => 'login'));
-           }
-           $this->Flash->error(
-               ('The user could not be saved. Please, try again.')
-           );
-       }*/
    
  }
 
-   /*public function edit($id = null) {
-       $this->User->id = $id;
-       if (!$this->User->exists()) {
-           throw new NotFoundException(__('Invalid user'));
-       }
-       if ($this->request->is('post') || $this->request->is('put')) {
-           if ($this->User->save($this->request->data)) {
-               $this->Flash->success(__('The user has been saved'));
-               return $this->redirect(array('action' => 'index'));
-           }
-           $this->Flash->error(
-               __('The user could not be saved. Please, try again.')
-           );
-       } else {
-           $this->request->data = $this->User->findById($id);
-           unset($this->request->data['User']['password']);
-       }
-   }
-
-   public function delete($id = null) {
-       // Prior to 2.5 use
-       // $this->request->onlyAllow('post');
-
-       $this->request->allowMethod('post');
-
-       $this->User->id = $id;
-       if (!$this->User->exists()) {
-           throw new NotFoundException(__('Invalid user'));
-       }
-       if ($this->User->delete()) {
-           $this->Flash->success(__('User deleted'));
-           return $this->redirect(array('action' => 'index'));
-       }
-       $this->Flash->error(__('User was not deleted'));
-       return $this->redirect(array('action' => 'index'));
-   }*/
-
+   
 }
 ?>

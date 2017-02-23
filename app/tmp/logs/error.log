@@ -2834,3 +2834,169 @@ Stack Trace:
 #3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-02-15 17:02:51 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users/
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 16:06:12 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users/
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 17:20:58 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/vagrant/app/View/Users/add.ctp, line 8]
+2017-02-23 17:20:58 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /users/add
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 8, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 8, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-23 17:58:33 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/vagrant/app/View/Posts/index.ctp, line 68]
+2017-02-23 17:58:33 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /posts/index
+Stack Trace:
+#0 /vagrant/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/app/Vi...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/app/Vi...', 68, Array)
+#2 /vagrant/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/app/Vi...', 68, Array)
+#3 /vagrant/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-23 18:24:22 Error: [MissingActionException] Action PostsController::edit_cm() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'edit_cm',
+)
+Request URL: /posts/edit_cm/39
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-23 18:25:43 Error: [MissingActionException] Action PostsController::edit_cm() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'edit_cm',
+)
+Request URL: /Posts/edit_cm/39
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-23 18:25:46 Error: [MissingActionException] Action PostsController::edit_cm() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'edit_cm',
+)
+Request URL: /Posts/edit_cm/39
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-23 18:30:06 Error: [MissingActionException] Action PostsController::edit_cm() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'edit_cm',
+)
+Request URL: /Posts/edit_cm/39
+Stack Trace:
+#0 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-23 18:30:31 Error: [MissingViewException] View file "Posts/edit_cm.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/edit_cm.ctp',
+)
+Request URL: /Posts/edit_cm/39
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 18:33:32 Error: [MissingViewException] View file "Posts/edit_cm.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/edit_cm.ctp',
+)
+Request URL: /Posts/edit_cm/39
+Stack Trace:
+#0 /vagrant/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 19:00:07 Error: [NotFoundException] Invalid post
+Request URL: /Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 19:00:38 Error: [NotFoundException] Invalid post
+Request URL: /posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 19:05:58 Error: [NotFoundException] Invalid post
+Request URL: /posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 19:07:27 Error: [NotFoundException] Invalid post
+Request URL: /Posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 19:08:20 Error: [NotFoundException] Invalid post
+Request URL: /posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-23 19:12:13 Error: [NotFoundException] Invalid post
+Request URL: /posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /vagrant/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /vagrant/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /vagrant/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

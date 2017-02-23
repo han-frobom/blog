@@ -14,7 +14,14 @@ class CommentsController extends AppController {
                if($result)
                {  
                 $this->Flash->success(__('Your comment has been deleted.'));
-               return  $this->redirect(array('action'=>'index','controller'=>'Posts'));
+               //return  $this->redirect(array('action'=>'view','controller'=>'posts'));
+
+               $this->redirect(array(
+    'controller' => 'posts',
+    'action' => 'index', 
+    $this->request->data['Comments']['id'])
+);
+              
                }
                else
                {

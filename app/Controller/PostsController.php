@@ -94,6 +94,9 @@ class PostsController extends AppController
                 }
                 
               }
+
+              
+              
             
 function uploadimg($id = null) {
     header('Content-type: image/jpeg');

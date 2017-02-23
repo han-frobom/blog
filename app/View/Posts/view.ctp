@@ -19,11 +19,7 @@ array('confirm' => 'Are you sure?')
 );
 ?> <?php echo'   ' ?> 
 
-<?php
-echo $this->Html->link(
-'Edit', array('action' => 'edit_cm', $post['Post']['user_id'])
-);
-?>
+
         </div>
       <?php endforeach; ?>
 
