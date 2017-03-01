@@ -1,5 +1,4 @@
 <h1>Add Post</h1>
-<?php echo $this->Html->link('logout',array('controller'=>'users','action'=>'logout'));?>
 <?php
 echo $this->Form->create('Post',array('enctype'=>'multipart/form-data'));
 echo $this->Form->input('title');
