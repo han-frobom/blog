@@ -1,45 +1,98 @@
 body {
   font-family: "Avenir Next";
 }
+
 .header {
+    background-color: #000;
+	width:100%;
+	height:50px;
+}
 
-	/*background-color:#58c28d;*/
-	height: 120px;
+.header h1{
+	font-size: 20px;
+	color:#fff;
+	padding :10px;
+}
+.content{
 	
-	font-family:cursive;
-	background:#795B35;
-	 background-position: 50% 20%; 
-
+	width: 100%;
+	height:500px;
 }
-
-.header-logo{
-	/*background: -webkit-linear-gradient(#A4BB68,#527D24);*/
-	float:left;
-	font-size: 30px;
-	padding: 20px;
-	text-align:center;
-
-}
-.li{
-	list-style: none;
-}
-
 .footer{
+	 background-color: #000;
+	width:100%;
+	height:50px;
+}
+.sidebar{
+ width:250px;
+ float:left;
+
+}
+.sidebarlist{
+		list-style: none;
+}
+.sidebarlist li{
+	margin-left: -27px;
+}
+.sidebarlist li a{
+	 display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.sidebarlist li a:hover {
+    background-color: #555;
+    color: white;
+}
+.sidemenu{
+	width:700px;
+	float:left;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000;
+    color: white;
+}
+/*.li{
+	list-style: none;
+}*/
+
+
+/*.footer{
 	background:#280906;
-	height: 120px;
+
+	height: 40px;
 	
 	background-position: 20% 70%;
 }
 .footer-logo{
 	
-	color:#000;
+	color:#fff;
 	font-family:serif;
 	font-size:25px;
 	float:right;
-}
-.main{
+}*/
+/*.main{
 	background-color: #fff;
 	height:50px;
+
 }
 .menu li{
 	float: left;
@@ -62,14 +115,14 @@ body {
 {
 	background:#CDA861;
 	height: 40%;
-	
+	*/
 	
 	/*margin-left:auto;
-	margin-right:auto;*/
+	margin-right:auto;
 	width:10em;
 
-}
-.nav li a
+}*/
+/*.nav li a
 {
 	display: block;
 	text-decoration: none;
@@ -82,6 +135,10 @@ body {
  border-right: 1px solid #f00;
  float: left;
  } 
+ .content{
+ 	padding:200px;
+
+ }
   .sub
  {
  	display: none;
@@ -90,4 +147,6 @@ body {
  {
   	border-top: 1px solid #f00;
  }
+ 
+*/
  
