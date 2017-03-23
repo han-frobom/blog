@@ -8,5 +8,6 @@ class Post extends AppModel {
 			'conditions' => array('Comment.class'=>'Post'),
 		),
 	);
+
 }
 
