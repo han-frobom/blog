@@ -31,38 +31,38 @@ App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
  * @link    http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller
- {
-  //public $components=array('Flash','DebugKit.Toolbar');
-         public $components = array(
-                'Flash','DebugKit.Toolbar',
-                'Auth' => array(
-                    'loginRedirect' => array(
-                        'controller' => 'posts',
-                        'action' => 'index'
-                    ),
-                    'logoutRedirect' => array(
-                        'controller' => 'users',
-                        'action' => 'login',
-                    ),
-                   'authenticate' => array(
-                        'Form' => array(
-                            'passwordHasher' => 'Blowfish'
-                        )
-                    )
-                )
-            );
+{
+	//public $components=array('Flash','DebugKit.Toolbar');
+	public $components = array(
+		'Flash',
+		'DebugKit.Toolbar',
+		'Auth' => array(
+			'loginRedirect' => array(
+				'controller' => 'posts',
+				'action' => 'index'
+			),
+			'logoutRedirect' => array(
+				'controller' => 'users',
+				'action' => 'login',
+			),
+			'authenticate' => array(
+				'Form' => array(
+					'passwordHasher' => 'Blowfish'
+				)
+			)
+		)
+	);
 
-        public function beforeFilter()
-        {
-            $this->Auth->allow('index', 'view');
-        }
-    public function isAuthorized($user)
-    {
-        // Admin can access every action
-        if (isset($user['role']) && $user['role'] === 'admin') {
-            return true;
-    }
-    // Default deny
-    return false;
-}
+	public function beforeFilter() {
+		$this->Auth->allow('index', 'view');
+	}
+
+	public function isAuthorized($user) {
+		// Admin can access every action
+		if (isset($user['role']) && $user['role'] === 'admin') {
+			return true;
+		}
+		// Default deny
+		return false;
+	}
 }

@@ -50,8 +50,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
       </button>
       <ul class="nav navbar-nav navbar-left">
       <a class="navbar-brand" href="#myPage">Blog Post</a>
-      <?php echo '<li>'.$this->Html->link('Home', array('controller'=>'posts','action'=>'index')).'</li>';?><?php if(AuthComponent::user('role')=='admin'): ?>{
-       <?php echo '<li>'.$this->Html->link('User List', array('controller'=>'users','action'=>'index')).'<li>';?>} <?php endif; ?>
+      <?php echo '<li>'.$this->Html->link('Home', array('controller'=>'posts','action'=>'index')).'</li>';?><?php if(AuthComponent::user('role')=='admin'): ?>
+       <?php echo '<li>'.$this->Html->link('User List', array('controller'=>'users','action'=>'index')).'<li>';?><?php endif; ?>
        <?php echo '<li>'.$this->Html->link('Manage', array('controller'=>'posts','action'=>'manage')).'</li>';?>
         <?php echo '<li>'.$this->Html->link('Add Post', array('controller'=>'posts','action'=>'add')).'</li>';?>
        <?php echo '<li>'.$this->Html->link('Logout', array('controller'=>'users','action'=>'logout')).'</li>';?>
